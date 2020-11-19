@@ -2,6 +2,8 @@
 library(tidyverse)
 library(lubridate)
 
+print(10)
+
 ## Recogemos todos los CSV de Google Drive
 #1.1
 fallecidosOficialUltimaSemana <- read.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQAbGmq1q9TYkM6Pi4ftN595EBTKLhk6oSR_lA3l_indS_zfYyV7TeFuNv2sGSHX0aIWAx9cE0INzQC/pub?gid=2015297896&single=true&output=csv', encoding = 'UTF-8')
@@ -44,3 +46,5 @@ write.csv(fallecidosExcesoCCAA, 'fallecidos-exceso-ccaa.csv')
 write.csv(fallecidosExcesoAnios, 'fallecidos-exceso-anios.csv')
 write.csv(fallecidosExcesoOtrosPaises, 'fallecidos-exceso-otros-paises.csv')
 write.csv(fallecidosEdad, 'fallecidos-edad.csv')
+
+print("Adios")
