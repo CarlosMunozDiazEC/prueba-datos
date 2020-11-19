@@ -47,4 +47,4 @@ write.csv(fallecidosExcesoAnios, 'fallecidos-exceso-anios.csv')
 write.csv(fallecidosExcesoOtrosPaises, 'fallecidos-exceso-otros-paises.csv')
 write.csv(fallecidosEdad, 'fallecidos-edad.csv')
 
-print("Adios")
+print("Adiosssss")
