@@ -27,6 +27,8 @@ fallecidosEdad <- read.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQAb
 ####################
 ####################
 
+print(fallecidosEdad)
+
 ## En función de la carpeta que nos encontremos, escribimos el setwd de una forma u otra
 ## Descomentar la siguiente línea si estás en la carpeta 'unidad-de-datos'
 ## setwd('./proyectos/covid-19/panel-mortalidad-covid')
